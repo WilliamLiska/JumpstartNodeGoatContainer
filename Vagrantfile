@@ -81,6 +81,9 @@ Vagrant.configure("2") do |config|
   #Install git
   config.vm.provision :shell, path: "./bootstrap/git.sh"
 
+  #Clone NodeGoat
+  config.vm.provision :shell, path: "./bootstrap/nodegoat.sh"
+
   #Setup applications. The run:"always" parameter will make this run every time the machine is run.
    #config.vm.provision "shell",
    #path: "./bootstrap/setup.sh",
