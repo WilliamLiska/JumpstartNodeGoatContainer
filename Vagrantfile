@@ -90,5 +90,6 @@ Vagrant.configure("2") do |config|
    #run: "always"
 
    config.vm.network "forwarded_port", guest: 27019, host: 27019 #Port for MongoDB
+   config.vm.network "forwarded_port", guest: 4000, host: 4567 #Port for nodegoat web
 
 end
