@@ -7,4 +7,4 @@ To run:
 3. cd ../../vagrant/NodeGoat
 4. npm start
 
-Browse the app at http://localhost:4567/
+Browse the app at https://localhost:4567/
